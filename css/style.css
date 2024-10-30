@@ -1,0 +1,213 @@
+/* BODY */
+body{
+    background-color: #5c48d2;
+    font-family: Verdana, Tahoma, Arial, sans-serif;
+    font-size: 16px;
+}
+/* HEADER */
+h1{
+    /* background-color: orange; */
+    font-size: 48px;
+    color:white;
+    line-height: 200px;
+    text-align: center;
+}
+p{
+    line-height: 30px;
+    text-align: justify;
+}
+/* MAIN */
+main{
+    width: 1024px;
+    background-color: white;
+    height: 500px;
+    border-radius: 20px;
+    margin: 0 auto;
+}
+.main-image{
+    height:400px;
+    width: 1024px;
+    object-fit: cover; 
+/* Pour conserver les proportions de l'image, pensez à la propriété object-fit : cover */
+ }
+/* Navigation */
+nav{
+    /* background-color: red; */
+    height: 100px;
+    display:flex;
+}
+/* Liens de navigations */
+nav a{
+    /* border:black solid 2px; */
+    flex: 1;
+    font-size: 20px;
+    color: #190f33;
+    align-items: center;
+    display:flex;
+    justify-content: center;
+    text-decoration: none;
+ }
+ /* Liens navigation au survol de la souris avec la couleur */
+ nav a:hover{
+    color:#5c48d2;
+ }
+ /* Image principale */
+ section{
+    /* Ici, il y a 4 sections dont deux couleurs différentes en fond */
+    padding: 100px;
+    background-color: white;
+ }
+ 
+ /* Attribut id pour identifier les différentes parties
+ de chacunes des sections */
+ #education,
+ #contact{
+    background-color: #eeeef7;
+ }
+/* Section 1 : à propos de moi */
+ .infos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .infos img{
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: #fcc01a 2px solid;
+    margin-right: 80px;
+    margin-bottom: 100px;
+ }
+ /* Premier bloc div dans la première section */
+ .nom,
+ .ville{
+    color: #190f33;
+ }
+ .nom{
+    font-size: 38px;
+    font-weight: bold;
+    margin-bottom: 50px;
+ }
+ .ville{
+    font-size: 30px;
+    font-style: italic;
+ }
+/* section 1 et 2 */
+h2, h3 {
+   color: #190f33;
+   font-weight: bold;
+
+}
+/* section 1 */
+ h3{
+    font-size: 26px;
+    margin-bottom:40px;
+ }
+/* section 2 */
+ h2{
+   font-size: 30px;
+   margin-bottom: 80px;
+   text-align: center;
+ }
+
+ #education p{
+   text-align:center;
+ }
+ #education img{
+   height:100px;
+ }
+ #education div{
+   margin-top:100px;
+   margin-bottom:100px;
+   display:flex;
+   justify-content: space-around;
+ }
+ #education span{
+   font-weight: bold;
+ }
+
+ /* Section 3 */
+ #projects p{
+   text-align:center;
+
+ }
+
+ /* bloc section 3 concernant la class et aussi l'image à gauche */
+ .project-container{
+   margin-top: 100px;
+   margin-bottom: 150px;
+   display:flex;
+   justify-content:center;
+   align-items:center;
+ }
+ .project-container img{
+   width: 500px;
+   margin-right: 60px;
+ }
+ /* .project-container div{
+   background-color: greenyellow;
+
+ } */
+/* bloc à droite pour la section 3 avec un titre et des puces */
+ h4{
+   font-size:18px;
+   font-weight:bold;
+   margin-bottom: 10px;
+ }
+#projects li{
+   line-height: 30px;
+}
+#projects ul{
+   list-style-type: disc;
+}
+
+/* Section 4 : contact */
+#contact img{
+   height:50px;
+   margin-right: 20px;
+   
+}
+
+
+#contact div{
+   display:flex;
+   justify-content: space-around;
+   align-items: center;
+   height: 50px;
+   margin-bottom: 20px;
+}
+
+#contact img:hover{
+   animation: shake 0.5s; 
+   animation-iteration-count: infinite; 
+}
+/* Animation: contact (liens images) */
+@keyframes shake{
+   0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+/* Footer */
+footer{
+   height: 300px;
+   color:white;
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+.footer p{
+ color: #c4c4c4;
+ line-height: 40px;  
+}
+
