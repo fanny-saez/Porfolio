@@ -218,4 +218,12 @@ footer{
 footer p{
  line-height: 40px;  
 }
-
+footer a{
+   display:inline-block;
+   line-height: 40px; 
+   text-decoration: none;
+   color:#90E0EF;
+}
+footer a:hover{
+   color:black;
+}
