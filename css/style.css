@@ -86,16 +86,16 @@ nav a{
     margin-bottom: 100px;
  }
  /* Premier bloc div dans la première section */
- .nom,
- .ville{
+ .name,
+ .city{
     color: #190f33;
  }
- .nom{
+ .name{
     font-size: 38px;
     font-weight: bold;
     margin-bottom: 50px;
  }
- .ville{
+ .city{
     font-size: 30px;
     font-style: italic;
  }
