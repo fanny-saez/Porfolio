@@ -5,7 +5,7 @@
 }
 /* BODY */
 body{
-    background-color: #064483;
+    background-color: #1b7a9f;
     font-family: Verdana, Tahoma, Arial, sans-serif;
     font-size: 16px;
 }
@@ -54,7 +54,7 @@ nav a{
  }
  /* Liens navigation au survol de la souris avec la couleur */
  nav a:hover{
-    color:#064483;
+    color:#1b7a9f;
  }
  /* Image principale */
  section{
@@ -80,7 +80,8 @@ nav a{
     width: 250px;
     object-fit: cover;
     border-radius: 50%;
-    border: #fcc01a 2px solid;
+    border: #1b7a9f 2px solid;
+    box-shadow: 5px 10px 30px #888888 ;
     margin-right: 80px;
     margin-bottom: 100px;
  }
