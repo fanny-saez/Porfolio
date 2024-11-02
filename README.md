@@ -1,8 +1,9 @@
 # Portfolio
 
-A portfolio built from A to Z! by testing my technical skills hml and css for the web.
+Création d'un portfolio en attendant d'en faire un autre !
+Celui-ci ! il vient de l'organisme "Le Reacteur"
 
-## Test
+## Démo
 <p>
   <img src="/screenshots/screenshots-portfolio1.png">
   <img src="/screenshots/screenshots-portfolio2.png">
@@ -11,3 +12,5 @@ A portfolio built from A to Z! by testing my technical skills hml and css for th
   <img src="/screenshots/screenshots-portfolio5.png">
   <img src="/screenshots/screenshots-portfolio6.png">
 </p>
+
+Quelques corrections, et encore des idées pleins la tête avant de le mettre en ligne !
