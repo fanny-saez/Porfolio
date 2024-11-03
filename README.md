@@ -13,4 +13,6 @@ Celui-ci ! il vient de l'organisme "Le Reacteur"
   <img src="/screenshots/screenshots-portfolio6.png">
 </p>
 
-Quelques corrections, et encore des idées pleins la tête avant de le mettre en ligne !
+<p>Quelques corrections, et encore des idées pleins la tête avant de le mettre en ligne !<br>
+Un portfolio différent avec quelques animations 
+</p>
