@@ -165,6 +165,12 @@ h2, h3 {
  #education span{
    font-weight: bold;
  }
+ #about-me em{
+   text-decoration:noe;
+   color:black;
+   font-style: normal;
+   font-weight: 600;
+ }
 
  /* Section 3 */
  #projects p{
