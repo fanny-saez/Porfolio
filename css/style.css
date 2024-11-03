@@ -7,7 +7,7 @@
 body{
     background-color: #1b7a9f;
     font-size: 16px;
-    font-family:Verdana, Tahoma, Arial, sans-serif;
+    font-family:'Courier New', Courier, monospace;
 }
 /* HEADER */
 h1{
@@ -84,6 +84,7 @@ nav a{
     display:flex;
     justify-content: center;
     text-decoration: none;
+    font-weight: bold;
  }
  /* Liens navigation au survol de la souris avec la couleur */
  nav a:hover{
