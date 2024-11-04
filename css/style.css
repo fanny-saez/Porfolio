@@ -83,7 +83,6 @@ nav a{
     display:flex;
     justify-content: center;
     text-decoration: none;
-    font-weight: bold;
  }
  /* Liens navigation au survol de la souris avec la couleur */
  nav a:hover{
@@ -165,11 +164,10 @@ h2, h3 {
  #education span{
    font-weight: bold;
  }
- #about-me em{
-   text-decoration:noe;
-   color:black;
-   font-style: normal;
-   font-weight: 600;
+
+ #about-me abbr:hover{
+    color:#1b7a9f;
+    font-weight: bold;
  }
 
  /* Section 3 */
@@ -233,15 +231,7 @@ h2, h3 {
 /* Animation: contact (liens images) */
 @keyframes shake{
    0% { transform: translate(1px, 1px) rotate(0deg); }
-  10% { transform: translate(-1px, -2px) rotate(-1deg); }
-  20% { transform: translate(-3px, 0px) rotate(1deg); }
-  30% { transform: translate(3px, 2px) rotate(0deg); }
-  40% { transform: translate(1px, -1px) rotate(1deg); }
   50% { transform: translate(-1px, 2px) rotate(-1deg); }
-  60% { transform: translate(-3px, 1px) rotate(0deg); }
-  70% { transform: translate(3px, 1px) rotate(-1deg); }
-  80% { transform: translate(-1px, -1px) rotate(1deg); }
-  90% { transform: translate(1px, 2px) rotate(0deg); }
   100% { transform: translate(1px, -2px) rotate(-1deg); }
 }
 
