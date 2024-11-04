@@ -11,6 +11,7 @@ Celui-ci ! il vient de l'organisme "Le Reacteur"
   <img src="/screenshots/screenshots-portfolio3.png">
   <img src="/screenshots/screenshots-portfolio4.png">
   <img src="/screenshots/screenshots-portfolio5.png">
+  <img src="/screenshots/screenshots-portfolio6.1.png">
   <img src="/screenshots/screenshots-portfolio6.png">
 </p>
 
