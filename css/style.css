@@ -149,7 +149,6 @@ section{
  
  .flip-card-front {
    color: black;
-   
  }
  
  .flip-card-back {
@@ -161,6 +160,13 @@ section{
    justify-content: center;
    align-items: center;
    text-align: center;
+ }
+  #details i{
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   text-align:center;
+   line-height: 50px;
  }
 
  /* Premier bloc div dans la première section */
