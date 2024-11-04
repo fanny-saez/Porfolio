@@ -281,6 +281,37 @@ h2, h3 {
    animation: shake 0.5s; 
    animation-iteration-count: infinite; 
 }
+/* boutons de téléchargments fichier pdf */
+.btn {
+   margin-top:100px;
+   padding-bottom:150px;
+   display:flex;
+   justify-content: space-around;
+   align-items: center;
+   height: 50px;
+   margin-bottom: 20px;
+   background-color: #1b7a9f;
+   border: none;
+   color: white;
+   padding: 12px 30px;
+   cursor: pointer;
+   font-size: 16px;
+   border-bottom-left-radius: 20px;
+   border-bottom-right-radius: 20px;
+   border-top-left-radius: 20px;
+   border-top-right-radius: 20px;
+   text-decoration:none;
+   text-align: center;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+ 
+ /* Darker background on mouse-over */
+
+ .btn:hover {
+   background-color: #90E0EF;
+   color:#1b7a9f;
+  
+ }
 /* Animation: contact (liens images) */
 @keyframes shake{
    0% { transform: translate(1px, 1px) rotate(0deg); }
