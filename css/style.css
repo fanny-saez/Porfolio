@@ -3,9 +3,6 @@
    padding:0;
    box-sizing:border-box;
 }
-abbr::after{ /* or ::before */
-   content: ' (' attr(title) ') ';
-}
 /* BODY */
 body{
     background-color: #1b7a9f;
