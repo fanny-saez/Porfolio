@@ -7,7 +7,7 @@
 body{
     background-color: #1b7a9f;
     font-size: 16px;
-    font-family:'Courier New', Courier, monospace;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 /* HEADER */
 h1{
@@ -112,7 +112,7 @@ section{
    width: 250px;
    object-fit: cover;
    border-radius: 50%;
-   border: #1b7a9f 2px solid;
+   border: #1b7a9f 3px solid;
    box-shadow: 5px 10px 30px #888888 ;
 
  }
@@ -160,6 +160,7 @@ section{
    justify-content: center;
    align-items: center;
    text-align: center;
+   border: 3px dotted white;
  }
   #details i{
    display:flex;
@@ -310,7 +311,6 @@ h2, h3 {
  .btn:hover {
    background-color: #90E0EF;
    color:#1b7a9f;
-  
  }
 /* Animation: contact (liens images) */
 @keyframes shake{
@@ -338,5 +338,5 @@ footer a{
    color:#90E0EF;
 }
 footer a:hover{
-   color:black;
+   color:white;
 }
