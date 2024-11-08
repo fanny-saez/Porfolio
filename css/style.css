@@ -281,10 +281,6 @@ h2, h3 {
    animation-iteration-count: infinite; 
 }
 
-[href$=".pdf"] {
-   background: url("download/CV Fanny_2024.pdf") no-repeat;
-}
-
 /* boutons de téléchargments fichier pdf */
 .btn {
    margin-top:100px;
